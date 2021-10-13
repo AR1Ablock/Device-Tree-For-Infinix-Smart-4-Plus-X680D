@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/infinix/Try
+DEVICE_PATH := device/infinix/try
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -18,7 +18,7 @@ TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_VARIANT := generic
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := Try
+TARGET_OTA_ASSERT_DEVICE := try
 
 # Bootloader"
 TARGET_BOOTLOADER_BOARD_NAME := CY-X680D-H6116-
@@ -52,8 +52,8 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 BOARD_KERNEL_IMAGE_NAME := zImage
 TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_HEADER_ARCH := arm
-TARGET_KERNEL_SOURCE := kernel/infinix/Try
-TARGET_KERNEL_CONFIG := Try_defconfig
+TARGET_KERNEL_SOURCE := kernel/infinix/try
+TARGET_KERNEL_CONFIG := try_defconfig
 
 # Platform
 TARGET_BOARD_PLATFORM := mt6765
