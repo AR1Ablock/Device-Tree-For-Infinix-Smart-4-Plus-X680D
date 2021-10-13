@@ -10,16 +10,16 @@ $(call inherit-product-if-exists, $(SRC_TARGET_DIR)/product/embedded.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
-# Inherit from Try device
-$(call inherit-product, device/infinix/Try/device.mk)
+# Inherit from try device
+$(call inherit-product, device/infinix/try/device.mk)
 
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, vendor/omni/config/gsm.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := Try
-PRODUCT_NAME := omni_Try
+PRODUCT_DEVICE := try
+PRODUCT_NAME := omni_try
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Infinix X680D
 PRODUCT_MANUFACTURER := infinix
